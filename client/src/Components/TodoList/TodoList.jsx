@@ -1,7 +1,7 @@
 import React from 'react'
-import CheckedTask from './CheckedTask'
+import CheckedTask from '../CheckedTask'
 import ListStyle from './TodoList.module.css'
-import UncheckedTask from './UncheckedTask'
+import UncheckedTask from '../UncheckedTask'
 const TodoList = () => {
     return (
         <div className={ListStyle.listContainer}>
