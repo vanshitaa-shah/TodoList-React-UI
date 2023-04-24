@@ -1,7 +1,9 @@
+// imports
 import React from 'react'
 import DateStyle from './DateHeader.module.css'
 
 const DateHeader = () => {
+    // variable declaration
     const date = new Date();
     return (
         <div className={DateStyle.container}>

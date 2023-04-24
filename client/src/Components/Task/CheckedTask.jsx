@@ -1,5 +1,7 @@
+// Imports
 import React from 'react'
 import checkedTask from '../../Assets/checkedTask.png'
+// Import of style module
 import TaskStyle from './Task.module.css'
 const CheckedTask = () => {
     return (
