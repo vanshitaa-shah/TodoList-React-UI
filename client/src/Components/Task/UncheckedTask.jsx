@@ -4,6 +4,7 @@ import checkedTask from '../../Assets/uncheckedTask.png'
 // Import of style module
 import TaskStyle from './Task.module.css'
 
+// Function Component
 const UncheckedTask = () => {
     return (
         <div className={TaskStyle.taskcontainer}>
@@ -13,4 +14,4 @@ const UncheckedTask = () => {
     )
 }
 
-export default UncheckedTask;
+export default React.memo(UncheckedTask);

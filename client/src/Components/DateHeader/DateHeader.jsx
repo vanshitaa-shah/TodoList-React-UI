@@ -17,7 +17,7 @@ class DateHeader extends React.Component {
                 <div className={DateStyle.date}>
                     <span id={DateStyle.date}>{this.date.getDate()}</span>
                     <span id={DateStyle.monthAndYear}>
-                        <span>{this.date.toLocaleString('en-US', { month: 'short' })}</span>
+                        <span>{this.date.toLocaleString('en-US', { month: 'short' }).toLocaleUpperCase()}</span>
                         <span>{this.date.getFullYear()}</span>
                     </span>
                 </div>

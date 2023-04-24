@@ -14,4 +14,4 @@ const AddTodo = () => {
     )
 }
 
-export default AddTodo;
+export default React.memo(AddTodo);
