@@ -1,3 +1,4 @@
+// Imports
 import React from 'react'
 import DateHeader from './Components/DateHeader/DateHeader'
 import TodoList from './Components/TodoList/TodoList'
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <div className="app-body">
       <div className="container">
+        {/* Components */}
         <DateHeader />
         <TodoList />
         <AddTodo />
@@ -16,4 +18,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

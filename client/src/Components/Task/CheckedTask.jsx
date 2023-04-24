@@ -1,6 +1,10 @@
+// Imports
 import React from 'react'
 import checkedTask from '../../Assets/checkedTask.png'
+// Import of style module
 import TaskStyle from './Task.module.css'
+
+// Function Component
 const CheckedTask = () => {
     return (
         <div className={TaskStyle.taskcontainer}>
@@ -10,4 +14,4 @@ const CheckedTask = () => {
     )
 }
 
-export default CheckedTask;
+export default React.memo(CheckedTask);
