@@ -1,5 +1,5 @@
 import React from 'react'
-import checkedTask from '../Assets/checkedTask.png'
+import checkedTask from '../../Assets/checkedTask.png'
 import TaskStyle from './Task.module.css'
 const CheckedTask = () => {
     return (
@@ -10,4 +10,4 @@ const CheckedTask = () => {
     )
 }
 
-export default CheckedTask
+export default CheckedTask;

@@ -1,5 +1,5 @@
 import React from 'react'
-import checkedTask from '../Assets/uncheckedTask.png'
+import checkedTask from '../../Assets/uncheckedTask.png'
 import TaskStyle from './Task.module.css'
 const UncheckedTask = () => {
     return (

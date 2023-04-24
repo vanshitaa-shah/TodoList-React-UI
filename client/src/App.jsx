@@ -1,8 +1,8 @@
 import React from 'react'
-import DateHeader from './Components/DateHeader'
-import TodoList from './Components/TodoList'
+import DateHeader from './Components/DateHeader/DateHeader'
+import TodoList from './Components/TodoList/TodoList'
+import AddTodo from './Components/AddTodo/AddTodo'
 import './App.css'
-import AddTodo from './Components/AddTodo'
 
 const App = () => {
   return (
