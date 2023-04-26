@@ -1,5 +1,10 @@
-# TodoList-React
+# TodoList-UI
 
+### Live Link 
+- just UI(practical-2) :[https://coruscating-halva-d17dc4.netlify.app/](https://coruscating-halva-d17dc4.netlify.app/)
+- with functionality (practical-3):[https://delightful-madeleine-a6bd53.netlify.app/](https://delightful-madeleine-a6bd53.netlify.app/)
+
+### Intoduction
  - UI of TodoList is created using React.
  - Used Class component,Function Component,Pure Function,Stateless Component.
  - Segregated CSS module files based on components.
